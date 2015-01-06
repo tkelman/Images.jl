@@ -1,6 +1,6 @@
 environment:
   matrix:
-  - JULIAVERSION: "x86/0.3/julia-0.3-latest-win32.exe"
+#  - JULIAVERSION: "x86/0.3/julia-0.3-latest-win32.exe"
   - JULIAVERSION: "x64/0.3/julia-0.3-latest-win64.exe"
 
 notifications:
