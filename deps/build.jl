@@ -87,4 +87,6 @@ vstr = string("v\"", join(split(bytestring(p), ',')[1:3], '.'), "\"")
 open("versioninfo.jl", "w") do file
     write(file, "const libversion = $vstr\n")
 end
+println("vstr is $vstr, versioninfo.jl content:")
+run(`cat versioninfo.jl`)
 end
